@@ -275,7 +275,7 @@ ul.nptabbs{display:none}
 /* Faq Tab section css*/
 /*==========================================*/
 .faq_sction{padding-top:40px}
-.tabbed-content{background:#fff;width:100%;padding:0 1em;margin:1em auto}
+.tabbed-content{background:#fff;width:100%;padding:0 1em;margin: 1em auto 0em}
 .tabs ul{margin:0;padding:10px;font-weight:700;border:1px solid #efefef;border-radius:6px}
 .tabs ul li{background:#fff}
 .tabs ul li a{background:0 0;border-bottom:1px solid #efefef;padding:10px 20px;margin-bottom:7px;text-align:left;color:#212121;font-size:18px;font-weight:600;text-decoration:none}
@@ -344,4 +344,16 @@ ul.nptabbs{display:none}
 .call-btn{line-height:45px;border-top:4px solid #d98329;height:50px;text-decoration:none!important;color:#212121!important;background:#fdf2e6;font-weight:600;font-size:20px;position:fixed;z-index:99;bottom:0;left:0;width:100%}
 @media (max-width:600px){
 .footer{background:#262626;color:#fff;font-size:13px;padding:8px 0;font-weight:500!important; margin-bottom: 60px}
+}
+
+/*=====================================================================*/
+/* Refrence css*/
+/*=====================================================================*/
+.new_common_ref{margin-top:0;margin-bottom:40px}
+.new_common_ref .refrence_new_list_com{list-style:disc;padding-inline-start:25px}
+.new_common_ref .refrence_new_list_com li{margin-bottom:5px}
+.new_common_ref .refrence_new_list_com li a{font-size:16px !important!important;line-height:normal;font-weight:300;color:#000}
+.new_common_ref .refrence_new_list_com li::marker{color:#1f83c5}
+@media screen and (max-width:600px){
+.new_common_ref{margin-top:10px;margin-bottom:25px}
 }
